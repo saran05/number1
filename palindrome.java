@@ -1,11 +1,15 @@
-while(a!=0)
+ while(n!=0)
         {
-            a1=a%10;
-            rev=rev*10+a1;
-            a=a/10;
-        }
-        if(a2==rev)
+            n1=n%10;
+            n=n/10;
+            sum+=n1;
+        }int sum1=sum;
+        while(sum!=0)
+        {
+            n1=sum%10;
+            rev=rev*10+n1;
+            sum=sum/10;
+        }if(sum1==rev)
             System.out.println("palindrome");
         else
-            System.out.println("not a palindrome");
-        
+            System.out.println("not palindrome");
