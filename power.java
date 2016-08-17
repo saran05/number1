@@ -1,8 +1,18 @@
-int n=2,power=3,i,pow=1;
-        for(i=1;i<=power;i++)
+while(n!=0)
         {
-            pow*=n;
+            count++;
+            n=n/10;
         }
-        System.out.println("the power of the no. is"+pow);
-     
-    }
+        while(n1!=0)
+        {
+            n2=n1%10;
+            pow=1;
+            for(i=0;i<count;i++)
+            {
+              pow=pow*n2;
+              }
+            sum+=pow;
+            n1=n1/10;
+        }
+        System.out.println(""+sum);
+    
