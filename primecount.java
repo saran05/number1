@@ -1,0 +1,22 @@
+for(i=10;i<=99;i++)
+        {
+            for(j=2;j<i;j++)
+            {
+             if(i%j==0)
+                 break;
+            }if(i==j){
+                a[k]=i;
+                k++;
+        }}int k1=0;
+        for(i=0;i<k;i++)
+        {count=0;
+            for(j=i;j<k-1;j++)
+            {count++;
+              t=t+a[j];
+                if(t==n){
+                     k1++;
+                    break;
+                    }}
+            if(k1==1)
+                break;}
+         System.out.println(""+count);
